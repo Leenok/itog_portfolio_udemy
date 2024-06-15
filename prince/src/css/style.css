@@ -1,0 +1,23 @@
+body{
+    background: lightyellow;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+img{
+    display: block;
+    width: 20%;
+    padding: 20px;
+    /* margin: 0 auto; */
+}
+.curs{
+    font-style: italic;
+}
+.upText{
+    text-transform: uppercase;
+}
+.redColor{
+    color: rgb(134, 5, 5);
+    text-align: center;
+}
