@@ -1,0 +1,203 @@
+.body{
+    margin: 0;
+    background-image: url('https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/evening/18.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.bloks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.block-time{
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px;
+}
+.block-time div{
+    margin: 10px;
+    text-align: center;
+}
+
+/*quote*/
+.quote-block{
+    display: flex;
+    flex-direction: column; 
+    /* align-items: center; */
+    width: 70%;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.622);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.quote{
+    
+}
+.upquote{
+    background: rgba(0, 0, 0, 0.748);
+    font-size: 20px;
+    padding: 15px;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+    /* margin: 0 auto; */
+}
+.upquote:hover{
+    background: rgba(226, 226, 226, 0.445);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    color: black;
+}
+
+/*button next-fon prev-fon*/
+.nv{
+    width: 5%;
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    background: rgba(0, 0, 0, 0.748);
+}
+.nv:hover{
+    background: rgba(226, 226, 226, 0.445);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    color: black;
+}
+.prev-fon{
+    left: 10px;
+    top: 50%;
+}
+.next-fon{
+    right: 10px;
+    top: 50%;
+}
+
+/*audio*/
+.player{
+    width: 250px;
+    text-align: center;
+}
+.pansong{
+    display: flex;
+}
+.pansong>p{
+    margin: 3px;
+}
+.cont{
+    background-color: rgba(255, 255, 255, 0.568);
+    font-size: 17px;
+}
+.nametrak{
+    margin: 5px;
+}
+.panel{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.panel>button{
+    margin:5px;
+}
+.inn img{
+    height: 13px;
+}
+.songs>div{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+.songs>div:hover, .panel>button:hover{
+    background-color: rgba(0, 0, 0, 0.212);
+    color: #dddddd;
+}
+.songs>div>button{
+    height: 20px;
+    color: white;
+    background-color: black;
+}
+.songs>div>p{
+    margin: 5px;
+}
+.check{
+    background-color: rgba(204, 189, 189, 0.89);
+   color: rgb(196, 143, 46);
+   font-size: 20px;
+}
+#range{
+    width: 50px;
+}
+
+/* weather*/
+.weather{
+    text-align: center;
+    font-weight: 700;
+}
+.weather> img{
+    height: 50px;
+}
+.inp{
+    height: 25px;
+    padding: 3px 10px;
+    width: 100px;
+}
+.ok{
+    background-color: black;
+    color: white;
+    padding: 9px;
+}
+.ok:hover{
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+/*todolist*/
+ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+}
+ul li{
+    background: #eee;
+    margin: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+ul li:hover {
+    background: #ddd;
+}
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+#myInput{
+    width: 120px;
+    margin: 2px;
+}
+.add{
+    padding: 7px;
+    width: 25%;
+    background: #000000;
+    color: white;
+}
+.close{
+    margin: 3px;
+    background: black;
+    color: #fff;
+}
